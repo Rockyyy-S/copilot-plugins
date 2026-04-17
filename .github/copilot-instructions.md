@@ -31,6 +31,11 @@ node plugins/multi-role-delivery-workflow/hooks/scripts/completion-check.js
 - 不在工作区指令中重复复制详细规范；优先链接现有规范文档。
 - 交付内容默认使用简体中文；必要术语可保留英文（如 API、CI/CD、MCP）。
 - 修改工作流行为前，先核对 `CHANGELOG.md`，避免破坏已有兼容性。
+- **文档同步规则**：每次修改插件内容（agents、instructions、prompts、hooks、skills、plugin.json）时，必须同步更新相应的文档：
+  - 修改代理（agent）→ 更新 `plugins/multi-role-delivery-workflow/README.md` 的角色列表
+  - 修改指令（instructions）→ 更新 `plugins/multi-role-delivery-workflow/CHANGELOG.md` 的工作流变更记录
+  - 修改 plugin.json 版本或功能 → 更新 `plugins/multi-role-delivery-workflow/README.md` 和 `CHANGELOG.md`
+  - 新增或修改技能（skills）→ 更新 `plugins/multi-role-delivery-workflow/README.md` 的技能索引
 
 ## Project-Specific Pitfalls
 
