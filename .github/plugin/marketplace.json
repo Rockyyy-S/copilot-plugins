@@ -1,0 +1,19 @@
+{
+    "name": "copilot-plugins",
+    "metadata": {
+        "description": "GitHub Copilot plugins",
+        "version": "1.0.4"
+    },
+    "owner": {
+        "name": "shiqw",
+        "email": "shiqw5696@163.com"
+    },
+    "plugins": [
+        {
+            "name": "multi-role-delivery-workflow",
+            "description": "全角色项目交付工作流插件",
+            "version": "1.0.4",
+            "source": "./plugins/multi-role-delivery-workflow"
+        }
+    ]
+}
