@@ -29,13 +29,33 @@
 - 安全合规：`GITHUB_TOKEN` 仅走环境变量，禁止明文写入。
 - 渐进推广：先在 1-2 个试点仓验证，再扩大到团队范围。
 
-## 4. 升级与兼容
+## 4. 角色列表
+
+- `project-coordinator`：项目总协调
+- `product-planner`：产品规划官
+- `architecture-designer`：架构设计师
+- `frontend-expert`：前端专家
+- `backend-expert`：后端专家
+- `mobile-expert`：移动端开发专家
+- `mini-program-expert`：微信小程序开发专家
+- `ux-ui-designer`：UX/UI设计师
+- `brand-designer`：品牌设计师
+- `qa-specialist`：QA专家
+- `security-reviewer`：安全审查师
+- `devops-engineer`：运维工程师
+- `release-manager`：发布经理
+- `technical-writer`：文档撰写员
+- `data-analyst`：数据分析师
+- `dx-champion`：DX工程效率官
+- `business-development-manager`：新业务拓展经理
+
+## 5. 升级与兼容
 
 - 升级前先看 `CHANGELOG.md`，确认是否存在破坏性变更。
 - 对于 `hooks/` 规则变更，建议先在测试仓验证。
 - 对于 `agents/` handoff 变更，建议回归 0to1 主流程一次。
 
-## 5. 目录结构
+## 6. 目录结构
 
 ```text
 multi-role-delivery-workflow/
