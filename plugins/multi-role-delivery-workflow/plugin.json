@@ -1,6 +1,6 @@
 {
   "name": "multi-role-delivery-workflow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "全角色项目交付工作流插件：需求、架构、实现、QA、安全、发布一体化协作",
   "publisher": "your-org"
 }

@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased - 2026-04-23
+## 1.0.5 - 2026-04-23
 
 - 新增角色 `ux-ui-designer`（UX/UI设计师），补充用户旅程、信息架构、交互流程与界面规范产出能力。
 - 更新 `project-coordinator` 的 handoff 列表与分流规则，支持在原型/交互/界面规范场景下调度 UX/UI设计师。
